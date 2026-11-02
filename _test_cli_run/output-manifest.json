@@ -2,8 +2,8 @@
   "skill": "spatial-etl-pipeline",
   "skill_version": "1.0.0",
   "command": "spatial-etl-pipeline --bbox 116 39 117 40 --synthetic --features 30 --output-dir ./_test_cli_run --quiet",
-  "started_at": "2026-08-03T14:48:49.085395Z",
-  "finished_at": "2026-08-03T14:48:49.487713Z",
+  "started_at": "2026-11-02T15:47:13.201214Z",
+  "finished_at": "2026-11-02T15:47:13.616036Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -20,7 +20,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_run\\etl_output.geojson",
+      "path": "./_test_cli_run/etl_output.geojson",
       "kind": "vector",
       "size_bytes": null,
       "crs_epsg": null,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_run\\etl_report.json",
+      "path": "./_test_cli_run/etl_report.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -60,7 +60,7 @@
     "n_steps": 6
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "spatial-etl-pipeline"
   },
   "error": null
